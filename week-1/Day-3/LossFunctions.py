@@ -10,7 +10,6 @@ Regression	                 =   Mean Squared Error (MSE)
 Binary Classification	     =   Binary Cross-Entropy (BCE)
 Multiclass Classification	 =   Categorical Cross-Entropy (CCE)
 Imbalanced Classification	 =   Focal Loss (variant of BCE)
-
 """
 import numpy as np
 
