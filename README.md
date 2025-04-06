@@ -82,5 +82,5 @@ This 4-week plan covers everything from fundamental neural network concepts to a
 ## 📢 Contributing
 Feel free to fork this repository, learn through it if you find it helpful and share your progress! 
 
-📧 Contact: vedantbadukale@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/vedant-badukale-887704283
+- 📧 Contact: vedantbadukale@gmail.com
+- 🔗 LinkedIn: https://www.linkedin.com/in/vedant-badukale-887704283
