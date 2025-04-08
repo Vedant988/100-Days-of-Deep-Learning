@@ -3,7 +3,8 @@
 Welcome to the **Deep Learning Challenge**! 🚀 This structured plan is designed to help you build a strong foundation in Deep Learning, optimize models, and prepare for technical interviews at companies like Amazon.
 
 ## 📅 Roadmap Overview
-This 4-week plan covers everything from fundamental neural network concepts to advanced architectures, deployment, and interview preparation.
+This plan covers everything from fundamental neural network concepts to advanced architectures, deployment, and interview preparation.
+(Note: This structure may Updates as I progress further...  :)
 
 ### **Week 1: Foundations & Core Concepts**
 - **Day 1:** SingleLayer-Forward-PropogationNN.py
