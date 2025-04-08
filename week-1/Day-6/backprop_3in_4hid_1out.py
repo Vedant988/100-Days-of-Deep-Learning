@@ -6,7 +6,7 @@ print(f'weights:{weights}')
 
 
 """
-for understanding:
+for understanding and computing GREDIENT DESCENT with resp to WEIGHTS and BIAS:
 
 forward propogagtion
 z1 = w11*X1 + w12*X2 + w13*X3 + b1
@@ -48,7 +48,8 @@ for i in range(epochs):
     
     da_dz=relu_derivative(z)
     dl_dz = dl_dy * dy_da * da_dz
-
+    
+    # computing GREDIENT DESCENT with resp to WEIGHTS and BIAS
     dl_dw = np.outer(dl_dz,inputs)
     dl_db = dl_dz
     
