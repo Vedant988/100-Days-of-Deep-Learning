@@ -1,18 +1,19 @@
-# Deep Learning Mastery Roadmap (1-Month Plan)
+# Deep Learning Core Mathematics and Scratch code for Under the Hood Things
 
-Welcome to the **Deep Learning Mastery Roadmap**! 🚀 This structured plan is designed to help you build a strong foundation in Deep Learning, optimize models, and prepare for technical interviews at companies like Amazon.
+Welcome to the **Deep Learning Challenge**! 🚀
 
 ## 📅 Roadmap Overview
-This 4-week plan covers everything from fundamental neural network concepts to advanced architectures, deployment, and interview preparation.
+This plan covers everything from fundamental neural network concepts to advanced architectures, deployment, and interview preparation.
+(Note: This structure may Updates as I progress further...  :)
 
-### **Week 1: Foundations & Core Concepts**
-- **Day 1:** Introduction to Neural Networks
-- **Day 2:** Mathematical Foundations - Linear Algebra
-- **Day 3:** Mathematical Foundations - Calculus
-- **Day 4:** Loss Functions
-- **Day 5:** Optimizers & Gradient Descent
-- **Day 6:** Introduction to PyTorch
-- **Day 7:** Review & Self-Assessment
+### **Week 1: Neural Network Foundations: Forward, Backward Propagation & Gradient Descent from Scratch**
+- **Day 1:** SingleLayer-Forward-PropogationNN.py
+- **Day 2:** multiLayer-Backward-PropogationNN.py
+- **Day 3:** LossFunctions.py
+- **Day 4:** ActivationFunction.py
+- **Day 5:** backprop_3in_1out_1.py, backprop_3in_1out.py
+- **Day 6:** backprop_3in_4hid_1out.py, backprop_3in_3hid_1out.py
+- **Day 7:** gradient_descent_with_resp_inputs.py, gradient_descent_with_resp_weights_biases.py
 
 ### **Week 2: Intermediate Neural Networks & Frameworks**
 - **Day 8:** Convolutional Neural Networks (CNNs) - Introduction
