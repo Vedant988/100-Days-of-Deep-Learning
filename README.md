@@ -1,6 +1,6 @@
-# Deep Learning Mastery Roadmap (1-Month Plan)
+# Deep Learning Fundamentals and the Core Mathematics Under the Hood 
 
-Welcome to the **Deep Learning Mastery Roadmap**! 🚀 This structured plan is designed to help you build a strong foundation in Deep Learning, optimize models, and prepare for technical interviews at companies like Amazon.
+Welcome to the **Deep Learning Challenge**! 🚀 This structured plan is designed to help you build a strong foundation in Deep Learning, optimize models, and prepare for technical interviews at companies like Amazon.
 
 ## 📅 Roadmap Overview
 This 4-week plan covers everything from fundamental neural network concepts to advanced architectures, deployment, and interview preparation.
