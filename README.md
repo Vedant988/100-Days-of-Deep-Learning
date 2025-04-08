@@ -6,7 +6,7 @@ Welcome to the **Deep Learning Challenge**! 🚀
 This plan covers everything from fundamental neural network concepts to advanced architectures, deployment, and interview preparation.
 (Note: This structure may Updates as I progress further...  :)
 
-### **Week 1: Foundations & Core Concepts**
+### **Week 1: Neural Network Foundations: Forward, Backward Propagation & Gradient Descent from Scratch**
 - **Day 1:** SingleLayer-Forward-PropogationNN.py
 - **Day 2:** multiLayer-Backward-PropogationNN.py
 - **Day 3:** LossFunctions.py
