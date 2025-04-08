@@ -6,13 +6,13 @@ Welcome to the **Deep Learning Challenge**! 🚀 This structured plan is designe
 This 4-week plan covers everything from fundamental neural network concepts to advanced architectures, deployment, and interview preparation.
 
 ### **Week 1: Foundations & Core Concepts**
-- **Day 1:** Introduction to Neural Networks
-- **Day 2:** Mathematical Foundations - Linear Algebra
-- **Day 3:** Mathematical Foundations - Calculus
-- **Day 4:** Loss Functions
-- **Day 5:** Optimizers & Gradient Descent
-- **Day 6:** Introduction to PyTorch
-- **Day 7:** Review & Self-Assessment
+- **Day 1:** SingleLayer-Forward-PropogationNN.py
+- **Day 2:** multiLayer-Backward-PropogationNN.py
+- **Day 3:** LossFunctions.py
+- **Day 4:** ActivationFunction.py
+- **Day 5:** backprop_3in_1out_1.py, backprop_3in_1out.py
+- **Day 6:** backprop_3in_4hid_1out.py, backprop_3in_3hid_1out.py
+- **Day 7:** gradient_descent_with_resp_inputs.py, gradient_descent_with_resp_weights_biases.py
 
 ### **Week 2: Intermediate Neural Networks & Frameworks**
 - **Day 8:** Convolutional Neural Networks (CNNs) - Introduction
