@@ -1,4 +1,4 @@
-# Deep Learning Fundamentals and the Core Mathematics Under the Hood 
+# Deep Learning Core Mathematics and Scratch code for Under the Hood Things
 
 Welcome to the **Deep Learning Challenge**! 🚀
 
