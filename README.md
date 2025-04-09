@@ -71,11 +71,6 @@ This plan covers everything from fundamental neural network concepts to advanced
 │   ├── Day17_Transformers.ipynb
 │   ├── ...
 │
-├── 📁 Week-4
-│   ├── Final_Project.ipynb
-│   ├── Mock_Interviews.md
-│   ├── ...
-│
 └── README.md
 ```
 
