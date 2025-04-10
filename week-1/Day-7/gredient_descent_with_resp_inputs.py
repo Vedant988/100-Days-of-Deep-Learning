@@ -11,3 +11,18 @@ where Do we USE dl_dx:
 """
 
 
+import numpy as np
+
+dl_dz = np.array([[1,2,3],
+                  [3,4,5],
+                  [4,5,6]])
+
+weights = np.array([[3,3,3],
+                    [1,1,1],
+                    [2,4,5]])
+
+dinput=np.dot(dl_dz,weights.T)
+# dinput == dl_dx
+print(f"weights:\n{weights}\n")
+print(f"dl_dz matrix:\n{dl_dz}\n")
+print(f"GREDIENT DESCENT WRT INPUTS:\n{dinput}\n")
