@@ -47,8 +47,8 @@ print(f"loss:\n{loss}\n")
 gradient = -true / predicted
 print(f"dL1_dy:\n{gradient}\n")
 
-# misconception - Greater magnitude of gradient ⇒ higher chance the prediction is correct
-# Correct Intution - Larger gradient magnitude means the model is more wrong about the correct class
+# misconception    --> Greater magnitude of gradient ⇒ higher chance the prediction is correct
+# Correct Intution --> Larger gradient magnitude means the model is more wrong about the correct class
 
 # so here, smaller gredient magnitude means small update in BACKPROPOGATION
 # larger gredient magnitude means Large Update in BACKPROPOGATION !!!
