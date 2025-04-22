@@ -6,6 +6,7 @@ print(f'weights:{weights}')
 
 
 """
+# Input -> Dense1 -> Relu -> Dense2 -> Softmax -> Loss
 for understanding and computing GREDIENT DESCENT with resp to WEIGHTS and BIAS:
 
 forward propogagtion

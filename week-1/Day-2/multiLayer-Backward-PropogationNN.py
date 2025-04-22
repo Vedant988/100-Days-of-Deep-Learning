@@ -1,5 +1,5 @@
 import numpy as np
-
+# General flow ---- Input -> Dense1 -> Relu -> Dense2 -> Softmax -> Loss
 
 class MultiLayer:
     def __init__(self,input_neuron,hidden_neuron,output_neuron,learning_rate=0.01):

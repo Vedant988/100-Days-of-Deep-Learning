@@ -1,4 +1,6 @@
 import numpy as np
+# Input -> Dense1 -> Relu -> Dense2 -> Softmax -> Loss
+
 
 weights=np.array([-2.0,-1.0,3.0])
 bias=-1.0

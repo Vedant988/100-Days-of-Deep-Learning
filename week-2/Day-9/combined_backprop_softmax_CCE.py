@@ -26,6 +26,48 @@ class activation_softmax_loss_cross_entropy:
         self.loss = Loss_categorical()
 
     def forward(self,inputs,y_true):
-
+        self.activation.forward(inputs)
+        self.output=self.activation.output
+        print(f'a: This is the prediction for One-Hot-Encoding for class\n{self.output}')
+        return self.loss.calculate(self.output,y_true)
 
     def backward(self,dvalues,y_true):
+        samples=dvalues.shape[0]
+        self.dinputs=dvalues.copy()
+        self.dinputs[range(samples),y_true]-=1
+        self.dinputs=self.dinputs/samples
+
+# z values
+logits = np.array([[2.0, 1.0, 0.1],     
+                   [1.0, 3.0, 0.2],     
+                   [0.2, 0.3, 0.5]])
+
+y_true = np.array([0, 1, 2])
+combined=activation_softmax_loss_cross_entropy()
+
+loss=combined.forward(logits,y_true)
+print("Loss:\n", loss)
+
+combined.backward(combined.output,y_true)
+print("\nGradients (dinputs):")
+print(combined.dinputs)
+
+
+"""
+In Gredients,
+-0.113 i.e. G[11] should closer to 1 
+0.0808 i.e. G[12] should closer to 0
+0.0328 i.e. G[13] should closer to 0
+as  class 0 is ground truth ---> one Hot Encoding
+
+----------> Negative Gredient PUSH them "Upward", while positive Push them "Down"
+----------> which one are negative in gredient should be the one with correct class and should reach 1 in a1=softmax(z1)
+
+"""
+
+
+# misconception    --> Greater magnitude of gradient ⇒ higher chance the prediction is correct
+# Correct Intution --> Larger gradient magnitude means the model is more wrong about the correct class
+
+# so here, smaller gredient magnitude means small update in BACKPROPOGATION
+# larger gredient magnitude means Large Update in BACKPROPOGATION !!!
