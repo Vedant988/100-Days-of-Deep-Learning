@@ -5,7 +5,6 @@
 # Direct formula for ---> dL_dz1 = (predictedm - ground_truth)
 
 import numpy as np
-
 # z = a1*w1​ + a2*w2 + b1 ("inputs" for the below function)
 class Activation_softmax:
     def forward(self, inputs):
