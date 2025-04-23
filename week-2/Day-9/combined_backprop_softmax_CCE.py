@@ -69,4 +69,4 @@ as  class 0 is ground truth ---> one Hot Encoding
 # Correct Intution --> Larger gradient magnitude means the model is more wrong about the correct class
 
 # so here, smaller gredient magnitude means small update in BACKPROPOGATION
-# larger gredient magnitude means Large Update in BACKPROPOGATION !!!
+# larger gredient magnitude means Large Update in BACKPROPOGATION !!
